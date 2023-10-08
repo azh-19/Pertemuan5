@@ -1,45 +1,74 @@
 * {
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
 }
 
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-weight: 700;
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
     font-size: 50px;
-    margin: 0 0 16px 0;
-}
-
-a {
-    text-decoration: none;
+    font-weight: bold;
+    float: left;
     color: black;
-    font-size: 25px;
 }
 
-p{
-    color: #979797;
-    margin: 0 0 16px 0;
-    font-size: 25px;
+.menu {
+    float: right;
 }
 
-section {
-    padding: 64px 128px;
-}
-
-img {
+nav {
     width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.kolom1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .btn {
-    background-color: #00dfc0;
+    background-color: #00dcf0;
     color: white;
-    padding: 8px 24px;
+    padding: 10px 24px;
 }
 
 .btn-alt {
@@ -49,13 +78,34 @@ img {
     border: 2px solid #00dcf0;
 }
 
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 128px;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    z-index: 5;
+img {
+    width: 100%;
 }
+
+section {
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 16px 0;
+    color: darkgrey;
+    width: 100%;
+}
+
