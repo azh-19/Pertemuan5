@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0 0 16px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+p{
+    color: #979797;
+    margin: 0 0 16px 0;
+    font-size: 25px;
+}
+
+section {
+    padding: 64px 128px;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #00dfc0;
+    color: white;
+    padding: 8px 24px;
+}
+
+.btn-alt {
+    background-color: white;
+    color: black;
+    margin-right: 16px;
+    border: 2px solid #00dcf0;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
+}
