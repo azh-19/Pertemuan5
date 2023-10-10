@@ -65,6 +65,13 @@ nav ul li a:hover{
     margin-bottom: 50px;
 }
 
+.h1-1 {
+    font-weight: 800;
+    width: 550px;
+    font-size: 45px;
+    line-height: 1.15;
+}
+
 .btn {
     background-color: #00dcf0;
     color: white;
@@ -89,23 +96,95 @@ section {
 }
 
 .kolom2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+    padding: 10px 20px;
+    line-height: 2;
 }
 
-h1 {
+.h1-2{
     font-weight: 800;
     font-size: 45px;
-    margin-bottom: 20px;
     color: black;
-    width: 100%;
-    line-height: 50px;
+    width: 500px;
+    line-height: 1.15;
 }
 
 p {
     font-size: 20px;
+    font-weight: 300;
     margin: 0 0 16px 0;
     color: darkgrey;
-    width: 100%;
+    width: 530px;
+    line-height: 1.15;
+}
+
+.img-about {
+    width: 450px;
+    float: left;
+    margin-left: 0px;
+}
+
+.angka {
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+    justify-content: right;
+}
+
+.angka-1 {
+    margin-right: 60px;
+}
+
+.angka-2 {
+    margin-right: 60px;
+}
+
+.angka-3 {
+    margin-right: 60px;
+}
+
+.garis {
+    position: absolute;
+    background-color: aqua;
+    height: 10px;
+    width: 80px;
+    top: 250px;
+}
+
+.bawah {
+    position: absolute;
+    color: gray;
+    top: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-3 {
+    font-weight: 800;
+    width: 550px;
+    font-size: 45px;
+    line-height: 1.15;
+}
+
+.p-s {
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+    color: gray;
+}
+
+.btn-2 {
+    background-color: #00dcf0;
+    color: white;
+    border: 2px solid #00dcf0;
+    margin-right: 0px;
+    padding: 10px 20px;
+    float: right;
+    font-size: 20px;
 }
 
