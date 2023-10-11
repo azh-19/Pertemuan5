@@ -309,3 +309,59 @@ input {
     width: 200px;
     font-size: 18px;
 }
+
+.lokasi {
+    display: grid;
+    grid-template-columns: auto;
+    width: 40%;
+    height: auto;
+}
+
+.h2-4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.iframe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 115px;
+    margin-top: 20px;
+    float: left;
+    height: 20px;
+}
+
+.footer {
+    padding-top: 20px;
+    color: white;
+    width: 300px;
+}
+
+.h1-5 {
+    font-weight: 800;
+    width: 550px;
+    font-size: 45px;
+    line-height: 1.20;
+}
+
+.p-f {
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+    color: white;
+}
+
+.back {
+    background-color: #00dcf0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
